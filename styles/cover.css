@@ -6,17 +6,22 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #FF0DFF;
 }
 
 /* Custom default button */
-.btn-default,
+.btn-default{
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #FF0DFF;
+  border: 1px solid #FF0DFF;
+}
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #E80C7A;
+  border: 1px solid #E80C7A;
 }
 
 
@@ -30,14 +35,16 @@ body {
   background-image:url(../L2KBJB91D6.jpg);
   background-repeat: no-repeat;
   background-size:cover;
-  background-attachment:scroll;
+  background-attachment: scroll;
   background-position: center;
   background-color: #242831;
 }
 body {
-  color: #fff;
+  color: #E80C7A;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: 1px 1px rgba(255,255,255,0.50);
+
+  
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -59,6 +66,7 @@ body {
   vertical-align: top;
 
 }
+
 .cover-container {
   margin-right: auto;
   margin-left: auto;
@@ -97,14 +105,15 @@ body {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
+  color:#FF0DFF;
+  border-bottom-color: #FF0DFF;
+  border-bottom-color: rgba(255,13,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #FF0DFF;
+  border-bottom-color: #FF0DFF;
 }
 
 @media (min-width: 768px) {
@@ -175,6 +184,12 @@ body {
     width: 700px;
   }
 }
-h1{
-  color: 
+h3{
+  font-size:250%; 
+  color: #fff;
+  text-shadow: initial;
 }
+li{
+  text-shadow: initial;
+}
+
