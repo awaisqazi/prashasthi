@@ -30,6 +30,7 @@ body {
   background-image:url(../L2KBJB91D6.jpg);
   background-repeat: no-repeat;
   background-size:cover;
+  background-attachment:scroll;
   background-position: center;
   /*background-color: #333;*/
 }
